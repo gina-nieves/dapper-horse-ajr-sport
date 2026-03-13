@@ -1,7 +1,8 @@
 const MorphSection = () => {
   return (
     <section className="w-full bg-cream py-16 sm:py-20 px-4 sm:px-8 lg:px-12">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+      <div className="max-w-6xl mx-auto bg-[hsl(30,10%,93%)] rounded-2xl p-8 sm:p-12 lg:p-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
         {/* Text Content */}
         <div className="max-w-xl">
           <p className="font-body text-burgundy text-xs tracking-[0.3em] uppercase mb-4">
@@ -75,6 +76,7 @@ const MorphSection = () => {
               Your browser does not support the video tag.
             </video>
           </div>
+        </div>
         </div>
       </div>
     </section>
