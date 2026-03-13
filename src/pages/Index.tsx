@@ -8,8 +8,8 @@ const Index = () => {
     <main>
       <HeroSection />
       <TrustBar />
-      <BrandStory />
       <ProductGrid />
+      <BrandStory />
     </main>
   );
 };

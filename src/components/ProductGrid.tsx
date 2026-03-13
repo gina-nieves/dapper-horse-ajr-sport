@@ -79,7 +79,7 @@ const ProductGrid = () => {
                   loading="lazy"
                 />
               </div>
-              <p className="font-body text-burgundy text-[10px] sm:text-xs tracking-[0.2em] uppercase mb-1">
+              <p className="font-body text-charcoal text-[10px] sm:text-xs tracking-[0.2em] uppercase mb-1">
                 AJR
               </p>
               <p className="font-body text-charcoal text-sm sm:text-base leading-snug mb-1">
