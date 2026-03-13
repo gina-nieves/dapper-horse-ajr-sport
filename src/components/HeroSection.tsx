@@ -2,7 +2,7 @@ import heroImage from "@/assets/ajr-hero2.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full h-[85vh] min-h-[500px] max-h-[850px] overflow-hidden">
+    <section className="relative w-full h-[90vh] min-h-[600px] max-h-[950px] overflow-hidden">
       {/* Full-bleed hero image */}
       <img
         src={heroImage}
