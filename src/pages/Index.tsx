@@ -2,6 +2,7 @@ import HeroSection from "@/components/HeroSection";
 import TrustBar from "@/components/TrustBar";
 import BrandStory from "@/components/BrandStory";
 import ProductGrid from "@/components/ProductGrid";
+import MorphSection from "@/components/MorphSection";
 
 const Index = () => {
   return (
@@ -9,6 +10,7 @@ const Index = () => {
       <HeroSection />
       <TrustBar />
       <ProductGrid />
+      <MorphSection />
       <BrandStory />
     </main>
   );
