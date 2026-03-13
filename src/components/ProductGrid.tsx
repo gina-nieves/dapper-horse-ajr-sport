@@ -22,14 +22,14 @@ const products = [
   {
     name: "AJR Sport Golden Ease Loose Ring Bit",
     price: "$100",
-    href: "/products/ajr-sport-golden-ease-loose-ring-bit",
-    image: "https://dapperhorse.com/cdn/shop/files/AJRSportGoldenEaseLooseRingBit01.png?width=600",
+    href: "/products/ajr-sport-double-jointed-golden-ease-loose-ring-bit",
+    image: "https://dapperhorse.com/cdn/shop/files/AJRSportDoubleJointedGoldenEaseLooseRingBit01.png?v=1771139025&width=600",
   },
   {
     name: "AJR Sport Intuflex Eggbutt Bit",
     price: "$110",
     href: "/products/ajr-sport-intuflex-eggbutt-bit",
-    image: "https://dapperhorse.com/cdn/shop/files/AJRSportIntuflexEggbuttBit01.png?width=600",
+    image: "https://dapperhorse.com/cdn/shop/files/AJRSportIntuflexEggbuttBit02.png?v=1771143174&width=600",
   },
   {
     name: "AJR Sport Rubber Block Morph Loose Ring Bit",
@@ -54,7 +54,7 @@ const ProductGrid = () => {
             THE COLLECTION
           </p>
           <h2 className="font-heading text-charcoal text-2xl sm:text-3xl lg:text-4xl font-normal">
-            Shop AJR Sport Bridles & Bits
+            Shop AJR Tack &amp; Bits
           </h2>
         </div>
 
