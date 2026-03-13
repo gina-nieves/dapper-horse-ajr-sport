@@ -8,7 +8,7 @@ const HeroSection = () => {
         <img
           src={heroImage}
           alt="Rider and grey horse jumping at Wellington"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-right"
         />
       </div>
       {/* Left side dark background */}
