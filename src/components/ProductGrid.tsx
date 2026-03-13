@@ -71,7 +71,7 @@ const ProductGrid = () => {
               href={`${BASE}${product.href}`}
               className="group block"
             >
-              <div className="relative overflow-hidden bg-pure-white mb-3 aspect-square shadow-sm">
+              <div className="relative overflow-hidden bg-pure-white mb-3 aspect-square">
                 <img
                   src={product.image}
                   alt={product.name}
