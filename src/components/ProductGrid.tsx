@@ -29,7 +29,7 @@ const products = [
     name: "AJR Sport Intuflex Eggbutt Bit",
     price: "$110",
     href: "/products/ajr-sport-intuflex-eggbutt-bit",
-    image: "https://dapperhorse.com/cdn/shop/files/AJRSportIntuflexEggbuttBit01.png?width=600",
+    image: "https://dapperhorse.com/cdn/shop/files/AJRSportIntuflexEggbuttBit02.png?v=1771143174&width=600",
   },
   {
     name: "AJR Sport Rubber Block Morph Loose Ring Bit",
