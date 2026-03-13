@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <section className="relative w-full h-[65vh] min-h-[450px] max-h-[750px] overflow-hidden">
       {/* Right side image */}
-      <div className="absolute inset-y-0 right-0 w-1/2">
+      <div className="absolute inset-y-0 right-0 w-[50%]">
         <img
           src={heroImage}
           alt="Rider and grey horse jumping at Wellington"
