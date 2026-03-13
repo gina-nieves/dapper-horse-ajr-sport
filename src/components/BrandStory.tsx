@@ -3,11 +3,11 @@ import brandImage from "@/assets/ajr-brand-story.jpg";
 const BrandStory = () => {
   return (
     <section className="w-full grid grid-cols-1 md:grid-cols-2">
-      <div className="relative min-h-[400px] md:min-h-[600px]">
+      <div className="relative min-h-[500px] md:min-h-[700px]">
         <img
           src={brandImage}
           alt="Close-up of premium leather saddle with bit detail"
-          className="absolute inset-0 w-full h-full object-cover object-top"
+          className="absolute inset-0 w-full h-full object-cover object-bottom"
         />
       </div>
       <div className="bg-cream flex items-center">
