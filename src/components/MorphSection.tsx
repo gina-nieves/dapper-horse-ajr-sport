@@ -60,6 +60,15 @@ const MorphSection = () => {
               Mouth width
             </li>
           </ul>
+
+          <div className="mt-8">
+            <a
+              href="https://dapperhorse.com/products/ajr-sport-leather-covered-morph-d-bit"
+              className="inline-block font-body text-burgundy border border-burgundy px-8 py-3 text-sm tracking-[0.15em] uppercase transition-all duration-300 hover:bg-burgundy hover:text-pure-white"
+            >
+              Shop the Morph
+            </a>
+          </div>
         </div>
 
         {/* Video */}
