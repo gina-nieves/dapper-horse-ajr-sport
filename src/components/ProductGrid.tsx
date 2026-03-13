@@ -54,7 +54,7 @@ const ProductGrid = () => {
             THE COLLECTION
           </p>
           <h2 className="font-heading text-charcoal text-2xl sm:text-3xl lg:text-4xl font-normal">
-            Shop AJR Sport Bridles & Bits
+            Shop AJR Tack &amp; Bits
           </h2>
         </div>
 
