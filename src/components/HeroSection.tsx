@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <section className="relative w-full h-[65vh] min-h-[450px] max-h-[750px] overflow-hidden">
       {/* Right side image */}
-      <div className="absolute inset-y-0 right-0 w-1/2">
+      <div className="absolute inset-y-0 right-0 w-[50%]">
         <img
           src={heroImage}
           alt="Rider and grey horse jumping at Wellington"
@@ -12,9 +12,9 @@ const HeroSection = () => {
         />
       </div>
       {/* Left side dark background */}
-      <div className="absolute inset-y-0 left-0 w-1/2 bg-charcoal" />
+      <div className="absolute inset-y-0 left-0 w-[50%] bg-charcoal" />
       {/* Gradient blend between left and image */}
-      <div className="absolute inset-y-0 left-[40%] w-[20%] bg-gradient-to-r from-charcoal to-transparent z-[1]" />
+      <div className="absolute inset-y-0 left-[42%] w-[16%] bg-gradient-to-r from-charcoal to-transparent z-[1]" />
 
       <div className="relative z-10 flex flex-col justify-center h-full px-6 sm:px-12 lg:px-20 max-w-3xl">
         <p className="font-body text-pure-white text-xs sm:text-sm tracking-[0.3em] uppercase mb-4 sm:mb-6">
