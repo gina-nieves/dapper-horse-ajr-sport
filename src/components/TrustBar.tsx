@@ -1,8 +1,8 @@
 const TrustBar = () => {
   const items = [
-    "Ships from New York",
-    "Designed by a Rider",
-    "Crafted for Performance",
+    "5-STAR RATED",
+    "DESIGNED BY A RIDER",
+    "CRAFTED FOR PERFORMANCE",
   ];
 
   return (
@@ -10,7 +10,7 @@ const TrustBar = () => {
       <div className="flex items-center justify-center gap-4 sm:gap-8 px-4">
         {items.map((item, i) => (
           <div key={i} className="flex items-center gap-4 sm:gap-8">
-            <span className="font-body text-pure-white text-xs sm:text-sm tracking-[0.1em]">
+            <span className="font-body text-pure-white text-xs sm:text-sm tracking-[0.15em] uppercase">
               {item}
             </span>
             {i < items.length - 1 && (
