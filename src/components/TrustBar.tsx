@@ -1,8 +1,8 @@
 const TrustBar = () => {
   const items = [
-    "Ships from New York",
-    "Designed by a Rider",
-    "Crafted for Performance",
+    "5-STAR RATED",
+    "DESIGNED BY A RIDER",
+    "CRAFTED FOR PERFORMANCE",
   ];
 
   return (
