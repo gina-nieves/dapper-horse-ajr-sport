@@ -1,23 +1,7 @@
-import { useEffect } from "react";
-
 const MorphSection = () => {
-  useEffect(() => {
-    // Load Facebook SDK
-    if (!(window as any).FB) {
-      const script = document.createElement("script");
-      script.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0";
-      script.async = true;
-      script.defer = true;
-      script.crossOrigin = "anonymous";
-      document.body.appendChild(script);
-    } else {
-      (window as any).FB.XFBML.parse();
-    }
-  }, []);
-
   return (
     <section className="w-full bg-cream py-16 sm:py-20 px-4 sm:px-8 lg:px-12">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
         {/* Text Content */}
         <div className="max-w-xl">
           <p className="font-body text-burgundy text-xs tracking-[0.3em] uppercase mb-4">
@@ -77,27 +61,19 @@ const MorphSection = () => {
           </ul>
         </div>
 
-        {/* Facebook Embed */}
+        {/* Video */}
         <div className="flex justify-center lg:justify-end">
-          <div
-            className="fb-page"
-            data-href="https://www.facebook.com/profile.php?id=100063978872875"
-            data-tabs="timeline"
-            data-width="500"
-            data-height="700"
-            data-small-header="true"
-            data-adapt-container-width="true"
-            data-hide-cover="false"
-            data-show-facepile="false"
-          >
-            <blockquote
-              cite="https://www.facebook.com/profile.php?id=100063978872875"
-              className="fb-xfbml-parse-ignore"
+          <div className="w-full max-w-md rounded-lg overflow-hidden shadow-lg">
+            <video
+              className="w-full h-auto"
+              controls
+              playsInline
+              preload="metadata"
+              poster=""
             >
-              <a href="https://www.facebook.com/profile.php?id=100063978872875">
-                Follow on Facebook
-              </a>
-            </blockquote>
+              <source src="/videos/AJRLeatherCoveredMorphDBit.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
       </div>
