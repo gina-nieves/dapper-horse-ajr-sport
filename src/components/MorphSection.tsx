@@ -1,6 +1,6 @@
 const MorphSection = () => {
   return (
-    <section className="w-full bg-white py-16 sm:py-20 px-4 sm:px-8 lg:px-12">
+    <section className="w-full bg-white pt-0 pb-16 sm:pb-20 px-4 sm:px-8 lg:px-12">
       <div className="max-w-6xl mx-auto bg-[hsl(30,10%,93%)] rounded-2xl p-8 sm:p-12 lg:p-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
         {/* Text Content */}

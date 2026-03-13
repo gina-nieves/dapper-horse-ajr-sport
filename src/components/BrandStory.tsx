@@ -7,7 +7,7 @@ const BrandStory = () => {
         <img
           src={brandImage}
           alt="Close-up of premium leather saddle with bit detail"
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute inset-0 w-full h-full object-cover object-top"
         />
       </div>
       <div className="bg-cream flex items-center">
