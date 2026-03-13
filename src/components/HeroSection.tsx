@@ -2,7 +2,7 @@ import heroImage from "@/assets/ajr-hero.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full h-[78vh] min-h-[500px] max-h-[850px] overflow-hidden">
+    <section className="relative w-full h-[85vh] min-h-[500px] max-h-[850px] overflow-hidden">
       {/* Right side image */}
       <div className="absolute inset-y-0 right-0 w-[60%]">
         <img
