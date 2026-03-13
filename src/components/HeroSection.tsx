@@ -12,7 +12,7 @@ const HeroSection = () => {
         />
       </div>
       {/* Left side dark background */}
-      <div className="absolute inset-y-0 left-0 w-1/2 bg-charcoal" />
+      <div className="absolute inset-y-0 left-0 w-[50%] bg-charcoal" />
       {/* Gradient blend between left and image */}
       <div className="absolute inset-y-0 left-[40%] w-[20%] bg-gradient-to-r from-charcoal to-transparent z-[1]" />
 
