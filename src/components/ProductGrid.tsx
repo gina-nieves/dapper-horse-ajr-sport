@@ -22,8 +22,8 @@ const products = [
   {
     name: "AJR Sport Golden Ease Loose Ring Bit",
     price: "$100",
-    href: "/products/ajr-sport-golden-ease-loose-ring-bit",
-    image: "https://dapperhorse.com/cdn/shop/files/AJRSportGoldenEaseLooseRingBit01.png?width=600",
+    href: "/products/ajr-sport-double-jointed-golden-ease-loose-ring-bit",
+    image: "https://dapperhorse.com/cdn/shop/files/AJRSportDoubleJointedGoldenEaseLooseRingBit01.png?v=1771139025&width=600",
   },
   {
     name: "AJR Sport Intuflex Eggbutt Bit",
