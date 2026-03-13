@@ -3,18 +3,18 @@ import heroImage from "@/assets/ajr-hero2.jpg";
 const HeroSection = () => {
   return (
     <section className="relative w-full h-[85vh] min-h-[500px] max-h-[850px] overflow-hidden">
-      {/* Right side image */}
-      <div className="absolute inset-y-0 right-0 w-[60%]">
-        <img
-          src={heroImage}
-          alt="Rider and grey horse jumping at Wellington"
-          className="w-full h-full object-cover object-right"
-        />
-      </div>
-      {/* Left side dark background */}
-      <div className="absolute inset-y-0 left-0 w-[40%] bg-charcoal" />
-      {/* Gradient blend between left and image */}
-      <div className="absolute inset-y-0 left-[32%] w-[16%] bg-gradient-to-r from-charcoal to-transparent z-[1]" />
+      {/* Full-bleed hero image */}
+      <img
+        src={heroImage}
+        alt="Rider and grey horse jumping at Wellington"
+        className="absolute inset-0 w-full h-full object-cover object-center"
+      />
+
+      {/* Cinematic gradient overlay — dark left fading to clear right */}
+      <div className="absolute inset-0 bg-gradient-to-r from-charcoal/90 via-charcoal/50 to-transparent" />
+
+      {/* Subtle bottom vignette for depth */}
+      <div className="absolute inset-0 bg-gradient-to-t from-charcoal/40 via-transparent to-charcoal/20" />
 
       <div className="relative z-10 flex flex-col justify-center h-full px-6 sm:px-12 lg:px-20 max-w-3xl">
         <p className="font-body text-pure-white text-xs sm:text-sm tracking-[0.3em] uppercase mb-4 sm:mb-6">
