@@ -2,46 +2,52 @@ const BASE = "https://dapperhorse.com";
 
 const products = [
   {
-    name: "AJR Sport Anatomic Double Bridle with Flash, Jumper",
+    name: "Anatomic Double Bridle with Flash, Jumper",
     price: "$445",
     href: "/products/ajr-sport-anatomic-double-bridle-with-flash-noseband-jumper-collection",
     image: "https://dapperhorse.com/cdn/shop/files/AJRSportAnatomicDoubleBridlewithFlashNosebandJumperCollection01.png?v=1771285669&width=600",
   },
   {
-    name: "AJR Sport Anatomic Jumper Bridle",
+    name: "Anatomic Jumper Bridle",
     price: "$339",
     href: "/products/ajr-sport-anatomic-jumper-bridle",
     image: "https://dapperhorse.com/cdn/shop/files/AJRSportAnatomicJumperBridle01.png?v=1771285698&width=600",
   },
   {
-    name: "AJR Sport Wide Noseband Hunter Bridle",
+    name: "Wide Noseband Hunter Bridle",
     price: "$317",
     href: "/products/ajr-sport-wide-noseband-hunter-bridle",
     image: "https://dapperhorse.com/cdn/shop/files/AJRSportWideNosebandHunterBridle01.png?v=1771285727&width=600",
   },
   {
-    name: "AJR Sport Golden Ease Loose Ring Bit",
+    name: "Golden Ease Loose Ring Bit",
     price: "$100",
     href: "/products/ajr-sport-double-jointed-golden-ease-loose-ring-bit",
     image: "https://dapperhorse.com/cdn/shop/files/AJRSportDoubleJointedGoldenEaseLooseRingBit01.png?v=1771139025&width=600",
   },
   {
-    name: "AJR Sport Intuflex Eggbutt Bit",
+    name: "Intuflex Eggbutt Bit",
     price: "$110",
     href: "/products/ajr-sport-intuflex-eggbutt-bit",
     image: "https://dapperhorse.com/cdn/shop/files/AJRSportIntuflexEggbuttBit02.png?v=1771143174&width=600",
   },
   {
-    name: "AJR Sport Rubber Block Morph Loose Ring Bit",
+    name: "Rubber Block Morph Loose Ring Bit",
     price: "$145",
     href: "/products/ajr-sport-rubber-block-morph-loose-ring-bit",
     image: "https://dapperhorse.com/cdn/shop/files/AJRSportRubberBlockMorphLooseRingBit02.png?v=1771165818&width=600",
   },
   {
-    name: "AJR Sport Sweet Iron Waterford Full Cheek Bit",
+    name: "Sweet Iron Waterford Full Cheek Bit",
     price: "$185",
     href: "/products/ajr-sport-sweet-iron-waterford-full-cheek-bit",
     image: "https://dapperhorse.com/cdn/shop/files/AJRSportSweetIronWaterfordFullCheekBit01.png?width=600",
+  },
+  {
+    name: "Leather Covered Morph D Bit",
+    price: "$185",
+    href: "/products/ajr-sport-leather-covered-morph-d-bit",
+    image: "https://dapperhorse.com/cdn/shop/files/AJRSportLeatherCoveredMorphDBit02.png?v=1771168577&width=600",
   },
 ];
 
@@ -73,6 +79,9 @@ const ProductGrid = () => {
                   loading="lazy"
                 />
               </div>
+              <p className="font-body text-burgundy text-[10px] sm:text-xs tracking-[0.2em] uppercase mb-1">
+                AJR
+              </p>
               <p className="font-body text-charcoal text-sm sm:text-base leading-snug mb-1">
                 {product.name}
               </p>
