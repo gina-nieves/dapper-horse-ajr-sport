@@ -7,7 +7,7 @@ const HeroSection = () => {
       <img
         src={heroImage}
         alt="Rider and grey horse jumping at Wellington"
-        className="absolute inset-0 w-full h-full object-cover object-[center_30%]"
+        className="absolute inset-0 w-full h-full object-cover object-[center_35%]"
       />
 
       {/* Cinematic gradient overlay — dark left fading to clear right */}
