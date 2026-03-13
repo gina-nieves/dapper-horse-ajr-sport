@@ -46,7 +46,7 @@ const products = [
   {
     name: "Leather Covered Morph D Bit",
     price: "$185",
-    href: "/products/ajr-sport-leather-covered-morph-d-bit",
+    href: "https://dapperhorse.com/products/ajr-sport-leather-covered-morph-d-bit",
     image: "https://dapperhorse.com/cdn/shop/files/AJRSportLeatherCoveredMorphDBit02.png?v=1771168577&width=600",
   },
 ];
